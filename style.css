@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+#logo{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 200;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 0.4rem;
+}
+
+.navlist{
+    display: flex;
+    gap: 5rem;
+}
+
+.navlist li{
+    list-style-type: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.navlist li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.main-content
+{
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-self: center;
+    width: 90%;
+}
+
+.title{
+    font-size: 2.8rem;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.msg{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 74%;
+}
+
+.btn{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.credit{
+    width: 25%;
+    background-color: black;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 0.1rem 6rem 1rem 1.5rem;
+    /* position: absolute;
+    left: 68%;
+    top: 92%; */
+}
+
+.designer{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  padding: 1rem 1rem 1.5rem 0;
+}
+
+.names{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.designer-pic{
+    width: 25%;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.role{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.credit--details{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.interior-pic{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
