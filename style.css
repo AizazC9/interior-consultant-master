@@ -28,6 +28,10 @@ body{
     gap: 5rem;
 }
 
+.menu{
+   visibility: hidden;
+}
+
 .navlist li{
     list-style-type: none;
 }
@@ -80,14 +84,18 @@ body{
     text-decoration: none;
 }
 
+.img-section{
+    position: relative;
+}
+
 .credit{
-    width: 25%;
+    width: 50%;
     background-color: black;
     box-shadow: 0px 4px 4px 0px #00000040;
     padding: 0.1rem 6rem 1rem 1.5rem;
-    /* position: absolute;
-    left: 68%;
-    top: 92%; */
+    position: absolute;
+    left: 43%;
+    top: 84%; 
 }
 
 .designer{
@@ -148,3 +156,272 @@ body{
     color: white;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 1300px){
+
+ .msg{
+    font-size: 1.2rem
+ }
+
+ .credit--details{
+    font-size: 1.2rem;
+ }
+   
+}
+
+@media screen and (max-width: 1154px){
+
+.msg{
+    font-size: 1rem
+ }
+
+ .credit--details{
+    font-size: 1rem;
+ }
+
+ .title{
+    font-size: 2rem;
+ }
+ .role{
+    font-size: 0.6rem;
+ }
+
+ .name{
+    font-size: 0.7rem;
+ }
+}
+
+
+@media screen and (max-width: 1005px){
+
+.msg{
+    font-size: 0.8rem
+ }
+
+ .credit--details{
+    font-size: 0.9rem;
+ }
+
+ .title{
+    font-size: 1.8rem;
+ }
+ .role{
+    font-size: 0.5rem;
+ }
+
+ .name{
+    font-size: 0.6rem;
+ }
+}
+
+
+@media screen and (max-width: 894px){
+
+.msg{
+    font-size: 0.6rem
+ }
+
+ .credit--details{
+    font-size: 0.7rem;
+ }
+
+ .title{
+    font-size: 1.6rem;
+ }
+ .role{
+    font-size: 0.32rem;
+ }
+
+ .name{
+    font-size: 0.4rem;
+ }
+
+ .navlist li a{
+    font-size: 0.7rem;
+ }
+
+ #logo{
+    font-size:0.7rem;
+ }
+
+ .btn{
+    font-size:0.8rem;
+ }
+
+ .details{
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 786px){
+
+    .main-content{
+        flex-direction: column;
+    }
+
+    .msg{
+    font-size: 0.8rem
+ }
+
+ .credit--details{
+    font-size: 0.9rem;
+ }
+
+ .title{
+    font-size: 1.8rem;
+ }
+ .role{
+    font-size: 0.5rem;
+ }
+
+ .name{
+    font-size: 0.6rem;
+ }
+
+ .navlist{
+    display: none;
+ }
+
+ #logo{
+    font-size:0.7rem;
+    padding: 0.1;
+ }
+
+ .menu{
+    visibility: visible;
+     color: white;
+     font-size: 2rem;
+ }
+
+ .navbar{
+    padding: 1rem;
+}
+.main-content{
+padding: 1rem;
+}
+
+.footer{
+    font-size: 0.8rem;
+    margin-top: 12rem;
+ }
+
+}
+
+
+@media screen and (max-width: 627px){
+.role{
+    font-size: 0.4rem;
+ }
+
+ .name{
+    font-size: 0.5rem;
+ }
+
+ .credit--details{
+    font-size: 0.7rem;
+ }
+     .designer{
+        padding: 0.5rem 0.5rem 1rem 0;
+     }
+
+     .credit{
+        width: 55%;
+     }
+    }
+
+    @media screen and (max-width: 530px){
+        .role{
+            font-size: 0.3rem;
+         }
+        
+         .name{
+            font-size: 0.4rem;
+         }
+        
+         .credit--details{
+            font-size: 0.4rem;
+         }
+
+         .navbar{
+            padding: 1rem;
+        }
+
+           .main-content{
+               padding: 1rem;
+           }
+
+        }
+
+@media screen and (max-width: 501px){
+
+    .role{
+        font-size: 0.4rem;
+     }
+    
+     .name{
+        font-size: 0.4rem;
+     }
+    
+     .credit--details{
+        font-size: 0.5rem;
+     }
+
+     .designer{
+        padding: 0.5rem 0.5rem 1rem 0;
+     }
+
+     .credit {
+        width: 90%;
+        padding: 0.5rem;
+        left: 5%; 
+        top: auto;
+    }
+    .footer{
+        font-size: 0.8rem;
+        margin-top: 12rem;
+     }
+
+    }
+
+    @media screen and (max-width: 400px){
+
+        .role{
+            font-size: 0.3rem;
+         }
+        
+         .name{
+            font-size: 0.3rem;
+         }
+        
+         .credit--details{
+            font-size: 0.4rem;
+         }
+            .navlist li a{
+                font-size: 0.6rem;
+            }
+
+            .btn{
+                font-size: 0.6rem;
+            }
+
+            .title{
+                font-size: 1.4rem;
+            }
+
+            .msg{
+                font-size: 0.6rem;
+            }
+
+            .credit{
+                width: 100%;
+                padding: 0.5rem;
+                left: 0;
+                top: auto;
+            }
+
+            .designer{
+                padding: 0.5rem 0.5rem 1rem 0;
+             }
+ 
+        }

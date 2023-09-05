@@ -8,11 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Interior Consultant</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 </head>
 <body>
   <header>
     <nav class="navbar">
       <h3 id="logo">THIS INTERIOR</h3>
+      <a href="#"><ion-icon name="menu-outline" class="menu"></ion-icon></a>
       <ul class="navlist">
         <li><a href="#">Home</a></li>
         <li><a href="#">Collection</a></li>
@@ -21,27 +25,29 @@
       </ul>
     </nav>
   </header>
-  <div class="main-content">
-    <div class="details">
-      <h1 class="title">Modern interior</h1>
-      <p class="msg">A full-Service residential & commercial interior design and 
-      staging company offering professional organizing & eco-services.</p>
-      <a href="#" class="btn">Read more &rightarrow;</a>
-    </div>
-    <div>
-      <img src="photo1.png" alt="interior design" class="interior-pic">
-    </div>
-  </div>
-  <div class="credit">
-    <div class="designer">
-      <img src="photo2.png" alt="aliza designer" class="designer-pic">
-      <div class="names">
-        <h3 class="name">Aliza Webber</h3>
-        <h3 class="role">interior designer</h3>
+  <div>
+    <div class="main-content">
+      <div class="details">
+        <h1 class="title">Modern interior</h1>
+        <p class="msg">A full-Service residential & commercial interior design and 
+          staging company offering professional organizing & eco-services.</p>
+          <a href="#" class="btn">Read more &rightarrow;</a>
+        </div>
+        <div class="img-section">
+          <img src="photo1.png" alt="interior design" class="interior-pic">
+          <div class="credit">
+            <div class="designer">
+              <img src="photo2.png" alt="aliza designer" class="designer-pic">
+              <div class="names">
+                <h3 class="name">Aliza Webber</h3>
+                <h3 class="role">interior designer</h3>
+              </div>
+            </div>
+            <p class="credit--details">Designed in 2020 by Aliza Webber</p>
+          </div>
+        </div>
       </div>
     </div>
-    <p class="credit--details">Designed in 2020 by Aliza Webber</p>
-  </div>
   <footer>
     <p class="footer">created by <a href="https://github.com/AizazC9">Syed Aizaz</a><a href="http://devChallenges.io"> - devChallenges.io</a></p>
   </footer>
