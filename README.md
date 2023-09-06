@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://aizazc9.github.io/interior-consultant-master/">
       Demo
     </a>
     <span> | </span>
